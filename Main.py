@@ -11,7 +11,7 @@ from conn  import create_connection
 from inbox import inbox
 
 # --- Oracle Instant Client Configuration ---
-oracledb.init_oracle_client(lib_dir= r"C:\Oracle\instantclient-basic-windows.x64-23.8.0.25.04\instantclient_23_8")
+#oracledb.init_oracle_client(lib_dir= r"C:\Oracle\instantclient-basic-windows.x64-23.8.0.25.04\instantclient_23_8")
 
 # Session state defaults
 if "logged_in" not in st.session_state:
